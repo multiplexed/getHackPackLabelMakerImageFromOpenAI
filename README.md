@@ -5,7 +5,10 @@ You must have an openAI key retrived from your OpenAI account (code retrives the
 
 Two files are included:
 * retrieveImageFromPromptOpenAI.py - Takes a single argument for the desired image and stores "local_image.png" corresponding to the image retrived from the API.
-* generateLabelMakerImage.sh - Bash script that takes a single argument for the desired image and runs the retrieveImageFromPromptOpenAI.py script, does a despeckle operation using a 'convert' imagemagick library, and then runs a python script 'hackPackLabelMakerCustomImage.py' from https://github.com/HeavyFalcon678/LabelMakerCustomImage to generate the ino file that can be uploaded to teh arduino based microcontroller on the HackPack label maker
+* generateLabelMakerImage.sh - Bash script that takes a single argument for the desired image and:
+  *  Runs the retrieveImageFromPromptOpenAI.py script
+  * Does a despeckle operation using a 'convert' imagemagick library (optional)
+  * Runs a python script 'hackPackLabelMakerCustomImage.py' from https://github.com/HeavyFalcon678/LabelMakerCustomImage to generate the ino file that can be uploaded to the arduino based microcontroller on the HackPack label maker
 
 
 Image Prompt:
