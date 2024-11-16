@@ -17,5 +17,5 @@ Image Prompt:
   
   The current script asks the openAI API to "Generate a cartoon black and white outline pixel art illustration featuring a " + image_prompt + ", featuring a central centered object on a white background."
 
-  There is a lot of room to experiment with the prompt to get the best images.
+  There is a lot of room to experiment with the prompt to get the best images.  Would love to know if there are other good AI image generation APIs that would work well with simple black and white image conversion.
 
